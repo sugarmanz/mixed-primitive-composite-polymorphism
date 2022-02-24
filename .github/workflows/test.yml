@@ -1,4 +1,5 @@
 name: test
+on: push
 jobs:
   build:
     name: Build and Run Tests
