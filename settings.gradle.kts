@@ -1,1 +1,1 @@
-rootProject.name = "serialization-sealed-polymorphism"
+rootProject.name = "mixed-primitive-composite-polymorphism"
