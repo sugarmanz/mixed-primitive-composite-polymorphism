@@ -35,6 +35,8 @@ Optionally, these licenses can be specified as an array:
 
 Create a sealed class the contains an implementation with a custom serializer to encode and decode as a string and a custom serializer for the sealed class to attempt to delegate to the right serializer. See `License.kt`.
 
+https://github.com/sugarmanz/mixed-primitive-composite-polymorphism/blob/a2f014d6c3e8428e22f44140b56be443a7a1512e/src/main/kotlin/License.kt#L10-L55
+
 This approach seems works when decoding a single `License` field:
 
 ```kotlin
