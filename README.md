@@ -81,3 +81,7 @@ kotlinx.serialization.json.internal.JsonDecodingException: Expected class kotlin
 	at kotlinx.serialization.json.Json.decodeFromJsonElement(Json.kt:119)
 	at LicenseTest.collection of primitive and objects(LicenseTest.kt:122)
 ```
+
+There are two tests failing for this specific use case:
+
+https://github.com/sugarmanz/mixed-primitive-composite-polymorphism/runs/5316422742
