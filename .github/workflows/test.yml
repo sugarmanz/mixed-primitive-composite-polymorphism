@@ -1,7 +1,4 @@
 name: test
-on:
-  pull_request:
-
 jobs:
   build:
     name: Build and Run Tests
